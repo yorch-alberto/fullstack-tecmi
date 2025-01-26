@@ -1,0 +1,98 @@
+/* General */
+body {
+	background-image: url('fondopaginav2.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    font-family: Verdana, Calibri;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;	
+}
+
+/* Encabezado */
+header {
+    background-color: #fef6e4;
+    color: black;
+    padding: 20px;
+    text-align: center;
+	
+}
+
+/* Sección de Proyectos */
+#proyecto1 {
+    padding: 20px;
+}
+
+.proyecto1 {
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+	background-image: url('jardinfondo.jpg');
+}
+
+#proyecto2 {
+    padding: 20px;
+}
+
+.proyecto2 {
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+	background-image: url('gatoprotesisv2.jpg');
+}
+
+#proyecto3 {
+    padding: 20px;
+}
+
+.proyecto3 {
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+	background-image: url('donacionfondov2.png');
+}
+
+/* Sección de Contacto */
+#contacto {
+    padding: 20px;
+    background-color: #fef6e4;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fef6e4;
+    text-decoration: none;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    header, #contacto, footer {
+        text-align: center;
+    }
+}
